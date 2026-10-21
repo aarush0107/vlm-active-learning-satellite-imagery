@@ -1,0 +1,36 @@
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+activeprompt/
+torch_gpu_env/
+
+# Generated outputs and temporary files
+output/
+temp/
+runs/
+*.log
+*_log.txt
+log.txt
+
+# Datasets
+datasets/
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Secrets
+.env
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+*_log.txt
+log.txt
+
+CLIP_Explainability/
